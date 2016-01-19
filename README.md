@@ -1,4 +1,8 @@
-Travis CI Build Status: [![Build Status](https://secure.travis-ci.org/jhclark/multeval.png?branch=master)](http://travis-ci.org/jhclark/multeval)
+Overview of my changes
+==========
+Added tokenizer from v7 of [Europarl](http://www.statmt.org/europarl/) tools to reproduce IWSLT scores, and a wrapper script for my convenience.
+
+---
 
 Overview
 ========
