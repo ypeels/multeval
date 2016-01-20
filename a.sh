@@ -41,4 +41,4 @@ else
     moses=$raw_moses
 fi
 
-$multevaldir/multeval.sh eval --refs $gold --hyps-baseline $moses --metrics bleu ter -v 1
+$multevaldir/multeval.sh eval --refs $gold --hyps-baseline $moses --metrics bleu ter --ter.punctuation true
