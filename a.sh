@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # to-do: take target_lang, raw_gold, raw_moses from command-line input
-lang1=en # source
-lang2=zh # target
+lang1=es # source
+lang2=en # target
 
 
 testdir=~/Desktop/multeval/my-test
@@ -41,4 +41,4 @@ else
     moses=$raw_moses
 fi
 
-$multevaldir/multeval.sh eval --refs $gold --hyps-baseline $moses --metrics bleu ter --ter.punctuation true
+$multevaldir/multeval.sh eval --refs $gold --hyps-baseline $moses --metrics bleu ter --ter.punctuation false
